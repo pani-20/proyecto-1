@@ -3,56 +3,406 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <meta name="description" content="one-piece-store" />
+    <meta name="keywords" content="store,one-piece" />
+    <meta name="author" content="j.a.paniagua" />
+    <link rel="stylesheet" href="/proyecto-1/style.css" />
+    <link
+      rel="shortcut icon"
+      href="/proyecto-1/assets/favicom/favicon-96x96.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <title>one piece store</title>
   </head>
   <body>
     <header>
-      <div>
+      <div class="logo">
         <img
           src="https://tienda-onepiece.com/wp-content/uploads/2024/03/tienda-onepiece-logo.png"
           alt=""
         />
       </div>
-      <nav>
+      <nav class="shop">
         <ul>
           <li>
-            <a href="#">plushies</a>
+            <a
+              href="https://www.mi-peluche.com/?s=one+piece&post_type=product"
+              target="_blank"
+              >Peluches</a
+            >
           </li>
           <li>
-            <a href="#">figures</a>
+            <a
+              href="https://frikytopia.store/regalos-y-productos-frikies/figura-d-luffy-monkey-the-brush-dioramatic-one-piece-20cm/?gad_source=1&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQsYqL83kdDVeiBGIfo5F4ox2mt1hiHDwVYe1PfjhjkI3i_WG3Kvf1RoCEhYQAvD_BwE"
+              target="_blank"
+              >Figuras</a
+            >
           </li>
           <li>
-            <a href="#">clothing</a>
+            <a
+              href="https://www.ouku.com/es/index.php?main_page=advanced_search_result&inc_subcat=1&search_in_description=0&prm=1.3.62.0&keyword=One+Piece&_gl=1*ha4xbc*_up*MQ..*_gs*MQ..*_ga*OTI3ODYzMTk4LjE3NDAxMzE3OTU.*_ga_G10RX7VGYD*MTc0MDEzMTc5NC4xLjAuMTc0MDEzMTc5NC4wLjAuMA..&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQlh_3j63S7Ds8UuBIkvvFujrXP30I-pyf5hebc-nwxNSYpj5xMhYxRoCmrEQAvD_BwE"
+              target="_blank"
+              >Ropa</a
+            >
           </li>
           <li>
-            <a href="#">accessories</a>
+            <a
+              href="https://lafrikileria.com/es/one-piece/45334-katana-enma-lila-de-zoro-one-piece-103-cm-manga-edition-8434518011029.html?gad_source=1&gclid=CjwKCAiA5eC9BhAuEiwA3CKwQmj7MEr5naee82FEQ9pVu8ipFKlHcKCSfQvHkQVpUEQNnkiMxNpS-hoCYDEQAvD_BwE&filter=f8%3AComplementos%2C%20carteras%20y%20bolsos&mot_q=one%20piece"
+              target="_blank"
+              >Accesorios</a
+            >
           </li>
           <li>
-            <a href="#">decoration</a>
+            <a
+              href="https://www.etsy.com/es/search?q=one+piece&ref=search_bar&dd_referrer=https%3A%2F%2Fwww.etsy.com%2Fes%2Flisting%2F1800521476%2Fletrero-o-placa-de-identificacion-de%3Fgpla%3D1%26gao%3D1%26%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3Dshopping_es_sp_es_-art_and_collectibles%26utm_custom1%3D_k_CjwKCAiA5eC9BhAuEiwA3CKwQlOaABcKwna7C9tHxgLjZ9r0EBf_j9D5fYzIJZ49Wi2T6psNKwoqNRoCT0sQAvD_BwE_k_%26utm_content%3Dgo_21055079474_171879651327_715362528871_aud-2079782229334%3Apla-314954651933_c__1800521476eses_432415314%26utm_custom2%3D21055079474%26gad_source%3D1%26gclid%3DCjwKCAiA5eC9BhAuEiwA3CKwQlOaABcKwna7C9tHxgLjZ9r0EBf_j9D5fYzIJZ49Wi2T6psNKwoqNRoCT0sQAvD_BwE"
+              target="_blank"
+              >Decoración</a
+            >
           </li>
           <li>
-            <a href="#">jewelry</a>
+            <a
+              href="https://kaiworksnyc.com/es-es/search?filter.p.t.category=aa-6-9&filter.p.t.category=aa-6-5&sort_by=relevance&q=one+piece&options%5Bprefix%5D=last"
+              target="_blank"
+              >Joyería</a
+            >
           </li>
         </ul>
       </nav>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">sign in</a>
-          </li>
-          <li>
-            <a href="#">search</a>
-          </li>
-          <li>
-            <a href="#">wishlist products</a>
-          </li>
-          <li>
-            <a href="#">shopping cart</a>
-          </li>
-        </ul>
+      <img
+        class="menu"
+        src="/proyecto-1/assets/imagenes/menu-hamburguesa.png"
+        alt="menu"
+      />
+      <nav class="icons">
+        <a href="https://tusitio.com/perfil" target="_blank"
+          ><i class="fas fa-user"></i
+        ></a>
+        <a href="https://tusitio.com/buscar" target="_blank"
+          ><i class="fas fa-search"></i
+        ></a>
+        <a href="https://tusitio.com/favoritos" target="_blank"
+          ><i class="fas fa-heart"></i
+        ></a>
+        <a href="https://tusitio.com/carrito" target="_blank"
+          ><i class="fas fa-shopping-cart"></i
+        ></a>
       </nav>
-      <h1>one piece store</h1>
     </header>
+    <main>
+      <section class="hero">
+        <h1>Tienda One Piece™</h1>
+      </section>
+      <section class="container">
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/peluche-chopper-cosplay-portgas-d-ace/"
+            target="_blank"
+          >
+            <div class="discount">-29%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/peluche-chopper-cosplay-portgas-d-ace-1.webp"
+              alt="Peluche Chopper"
+            />
+            <h3>Peluche Chopper Cosplay Portgas D Ace</h3>
+            <span class="old-price">34,90 €</span>
+            <span class="price">24,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/funko-pop-sanji/"
+            target="_blank"
+          >
+            <div class="discount">-29%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/funko-pop-sanji-1.jpg"
+              alt="Funko Pop Sanji"
+            />
+            <h3>Funko Pop Sanji</h3>
+            <span class="old-price">34,90 €</span>
+            <span class="price">24,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/figura-de-barbablanca-one-piece/"
+            target="_blank"
+          >
+            <div class="discount">-17%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-de-barbablanca-one-piece-1.jpg"
+              alt="Figura de Barbablanca"
+            />
+            <h3>Figura De Barbablanca One Piece</h3>
+            <span class="old-price">59,90 €</span>
+            <span class="price">49,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/sombrero-luffy/"
+            target="_blank"
+          >
+            <div class="discount">-29%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/sombrero-luffy-1.webp"
+              alt="Sombrero Luffy"
+            />
+            <h3>Sombrero Luffy</h3>
+            <span class="old-price">34,90 €</span>
+            <span class="price">24,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/poster-wanted-luffy-one-piece/"
+            target="_blank"
+          >
+            <div class="discount">-28%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/poster-wanted-luffy-one-piece.jpg"
+              alt="Póster Wanted Luffy"
+            />
+            <h3>Póster Wanted Luffy One Piece</h3>
+            <span class="old-price">17,90 €</span>
+            <span class="price">12,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/mochila-one-piece-craneo/"
+            target="_blank"
+          >
+            <div class="discount">-27%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/mochila-one-piece-craneo.webp"
+              alt="Mochila One Piece Cráneo"
+            />
+            <h3>Mochila One Piece Cráneo</h3>
+            <span class="old-price">54,90 €</span>
+            <span class="price">39,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/reloj-de-bolsillo-one-piece/"
+            target="_blank"
+          >
+            <div class="discount">-25%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/reloj-de-bolsillo-one-piece-1.jpg"
+              alt="Reloj De Bolsillo One Piece"
+            />
+            <h3>Reloj De Bolsillo One Piece</h3>
+            <span class="old-price">39,90 €</span>
+            <span class="price">29,90 €</span>
+          </a>
+        </article>
+        <article class="product">
+          <a
+            href="https://tienda-onepiece.com/products/camiseta-de-zoro/"
+            target="_blank"
+          >
+            <div class="discount">-29%</div>
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/09/camiseta-de-zoro-1.jpg"
+              alt="Camiseta De Zoro"
+            />
+            <h3>Camiseta De Zoro</h3>
+            <span class="old-price">34,90 €</span>
+            <span class="price">24,90 €</span>
+          </a>
+        </article>
+      </section>
+      <section class="store-info">
+        <h2>LA TIENDA ONE PIECE</h2>
+        <p>
+          Descubre en exclusiva los mejores productos del universo One Piece y
+          vive al máximo tu pasión. Tienda OnePiece te ofrece una amplia gama de
+          productos. Así que sube a bordo y descubre las mejores ofertas a los
+          mejores precios del mercado.
+        </p>
+        <p>
+          Descubre las mejores ofertas en productos a los mejores precios,
+          exclusivamente en Tu Tienda One Piece™.
+        </p>
+      </section>
+      <section class="figures-container">
+        <a
+          href="https://tienda-onepiece.com/collections/figuras-zoro/"
+          target="_blank"
+        >
+          <div class="figure">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-zoro-1.jpg"
+              alt="Figuras Zoro"
+            />
+            <div class="figure-title">Figuras Zoro</div>
+          </div>
+        </a>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-chopper/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-tony-tony-chopper-2.jpg"
+              alt="Figuras Chopper"
+            />
+            <div class="figure-title">Figuras Chopper</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-ace/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-ace-1.jpg"
+              alt="Figuras Ace"
+            />
+            <div class="figure-title">Figuras Ace</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-luffy/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-luffy-gear-5-bandai-1.jpg"
+              alt="Figuras Luffy"
+            />
+            <div class="figure-title">Figuras Luffy</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-nami/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-nami-h-1.jpg"
+              alt="Figuras nami"
+            />
+            <div class="figure-title">Figuras Nami</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-usopp/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-usopp-1.jpg"
+              alt="Figuras usopp"
+            />
+            <div class="figure-title">Figuras Usopp</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-sanji/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-sanji-1.jpg"
+              alt="Figuras sanji"
+            />
+            <div class="figure-title">Figuras Sanji</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a
+            href="https://tienda-onepiece.com/collections/figuras-trafalgar-law/"
+          >
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-trafalgar-law-1.webp"
+              alt="Figuras trafalgar law"
+            />
+            <div class="figure-title">Figuras Trafalgar Law</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-doflamingo/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-doflamingo-1.jpg"
+              alt="Figuras doflamingo"
+            />
+            <div class="figure-title">Figuras Doflamingo</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a
+            href="https://tienda-onepiece.com/collections/figuras-boa-hancock/"
+          >
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-boa-hancock-1.jpg"
+              alt="Figuras boa hancock"
+            />
+            <div class="figure-title">Figuras Boa Hancock</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-shanks/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-de-shanks-1.jpg"
+              alt="Figuras shanks"
+            />
+            <div class="figure-title">Figuras Shanks</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-nico-robin/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/nico-robin-figure-wano-1.jpg"
+              alt="Figuras nico robin"
+            />
+            <div class="figure-title">Figuras Nico Robin</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a
+            href="https://tienda-onepiece.com/collections/figuras-barbablanca/"
+          >
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-de-barbablanca-1.jpg"
+              alt="Figuras barbablanca"
+            />
+            <div class="figure-title">Figuras Barbablanca</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-kaido/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-kaido-one-piece-1.jpg"
+              alt="Figuras kaido"
+            />
+            <div class="figure-title">Figuras Kaido</div>
+          </a>
+        </div>
+        <div class="figure">
+          <a href="https://tienda-onepiece.com/collections/figuras-yamato/">
+            <img
+              src="https://tienda-onepiece.com/wp-content/uploads/2024/08/figura-de-yamato-2.webp"
+              alt="Figuras yamato"
+            />
+            <div class="figure-title">Figuras Yamato</div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <article>
+        <h3>¿UNA PREGUNTA?</h3>
+        <a href="#">Preguntas Frecuentes</a>
+        <a href="#">Contacto</a>
+        <a href="mailto:hola@tienda-onepiece.com">hola@tienda-onepiece.com</a>
+        <p>Reseñas 4.8/5 ⭐⭐⭐⭐⭐</p>
+      </article>
+      <article>
+        <h3>INFORMACIÓN</h3>
+        <a href="#">Inicio</a>
+        <a href="#">Carrito</a>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Política de Reembolso</a>
+        <a href="#">Política de Privacidad</a>
+      </article>
+      <article class="copyright">
+        <h3>Tienda One Piece © 2023</h3>
+        <p>
+          Tienda no afiliada a Toei Animation o Shueisha. Nuestra tienda online
+          está diseñada por fans de la licencia One Piece. No está vinculada en
+          modo alguno a Toei Animation o Shueisha y no ofrece ningún producto
+          oficial vendido por ellos.
+        </p>
+      </article>
+    </footer>
   </body>
 </html>
